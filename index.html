@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando meu próprio Scratch</title>
+    <link href="./bootstrap.min.css" rel="stylesheet"/>
+    <link href="./all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="content-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggles="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggle-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggles="dropdown" aria-expanded="false">dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+      
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+movimentos
+    <br>
+    <button onclick="moverParaEsquerda()">Mover para esquerda</button>
+    <button onclick="moverParaDireita()">Mover para direita</button>
+    <button onclick="moverParaCima()">Mover para cima</button>
+    <button onclick="moverParaBaixo()">Mover para baixo</button>
+    <button onclick="girarHorario()">Deslizar</button>
+    <button onclick="deslizarParaDireita()">Deslizar para a Direita</button>
+    <button onclick=""> aponte Para Direcao</button>
+    <button onclick="">ir para A Direção</button>
+    <button onclick="">ir Para Direcao Aleatoria</button>
+    <button onclick="">deslizar até a posição aleatória</button>
+    <button onclick="">Seguir o Mause</button>
+    <button onclick="">Voltar ao Início</button>
+    aparencia
+    <br>
+    <button onclick=""> "Dizer" Olá por "n" segundo(s) </button>
+    <button onclick=""> Trocar o avatar </button>
+    <button onclick=""> "Resetar" o avatar </button>
+    <button onclick=""> Trocar o cenário </button>
+    <button onclick=""> "Resetar" o cenário</button>
+    <button onclick=""> Diminuir o avatar </button>
+    <button onclick=""> Aumentar o avatar </button>
+    <button onclick=""> Esconder o avatar</button>
+    <br>
+    <br>
+    som
+    <br>
+    <button onclick=""> Mostrar o avatar</button>
+    <button onclick=""> Tocar o som</button>
+    <button onclick=""> Parar o som</button> 
+    <button onclick=""> Aumentar volume</button>
+    <button onclick=""> Diminuir volume</button>
+    
+    <br/>
+    <br/>
+    <label for="txtPixel">Quatidade de pixel(s):</label>
+    <input type="text" id="txtPixel" value="1"/>
+
+    <div class="slider">
+        <div class="slide">
+          <img src="./cat.png" alt="imgAvatar"/>
+        </div>
+        <a class="prev" onclick="prevSlide()">&lt;</a>
+        <a class="next" onclick="nextSlide()">&gt;</a>
+      </div>
+    <img src="./cat scratch.png" id="imgAvatar" width="200" height="200"/>
+
+<script src="./scratch.js"></script>
+<script src="./bootstrap.bundle.min.js"></script>
+<script src="./all.min.js"></script>
+<script src="./main.min.js"></script>
+<script src="./popper.js"></script>
+</body>
+</html>
